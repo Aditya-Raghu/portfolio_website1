@@ -9,11 +9,7 @@
   }
 }
 
-@media (max-height: 1024px) {
-  #header-home {
-    height: 33rem;
-  }
-}
+
 
 // Smartphone
 @media (max-width: 500px) {
@@ -121,6 +117,14 @@
     &-c {
       h1 {
         font-size: 2rem;
+      }
+    }
+  }
+
+  #work {
+    &-a {
+      .item-image {
+        width: auto;
       }
     }
   }

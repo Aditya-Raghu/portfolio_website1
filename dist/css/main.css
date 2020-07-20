@@ -436,10 +436,6 @@ img {
     #header-home .header-content {
       padding-top: 5rem; } }
 
-@media (max-height: 1024px) {
-  #header-home {
-    height: 33rem; } }
-
 @media (max-width: 500px) {
   #main-nav {
     flex-direction: column;
@@ -487,6 +483,8 @@ img {
       padding-bottom: 0; }
   #contact-c h1 {
     font-size: 2rem; }
+  #work-a .item-image {
+    width: auto; }
   #main-footer {
     height: 7rem; }
     #main-footer .footer-content {

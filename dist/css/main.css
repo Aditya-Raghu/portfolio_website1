@@ -193,10 +193,8 @@ img {
   width: 100%; }
 
 #logo {
-  visibility: hidden;
   position: relative;
-  left: 50px;
-  width: 70px;
+  width: 80px;
   height: 70px;
   color: #fff;
   text-transform: uppercase; }
@@ -391,7 +389,7 @@ img {
     padding: 0.5rem 1rem; }
 
 #contact-a button[type='submit'] {
-  width: 30%; }
+  width: 50%; }
 
 #contact-b .contact-info {
   display: grid;
@@ -435,10 +433,12 @@ img {
 @media (max-width: 1024px) {
   #header-home {
     height: 33rem; }
-    #header-home img {
-      width: 100%; }
     #header-home .header-content {
       padding-top: 5rem; } }
+
+@media (max-height: 1024px) {
+  #header-home {
+    height: 33rem; } }
 
 @media (max-width: 500px) {
   #main-nav {
@@ -446,8 +446,6 @@ img {
     align-items: center; }
     #main-nav li {
       padding: 1rem; }
-    #main-nav img {
-      width: 100%; }
   #header-home {
     height: 10rem;
     border-bottom: 3px solid #fd5825;
@@ -477,6 +475,8 @@ img {
     display: none; }
   #contact-a .text-fields {
     grid-template-areas: 'name' 'subject' 'email' 'phone' 'message'; }
+  #contact-a button[type='submit'] {
+    width: 100%; }
   #contact-b div {
     margin-bottom: 1rem;
     padding-bottom: 1rem;
@@ -487,8 +487,6 @@ img {
       padding-bottom: 0; }
   #contact-c h1 {
     font-size: 2rem; }
-  #work-a .items .item-image {
-    width: 100%; }
   #main-footer {
     height: 7rem; }
     #main-footer .footer-content {

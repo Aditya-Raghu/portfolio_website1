@@ -3,6 +3,10 @@
   #header-home {
     height: 33rem;
 
+    img {
+      width: 100%;
+    }
+
     .header-content {
       padding-top: 5rem;
     }
@@ -17,6 +21,10 @@
 
     li {
       padding: 1rem;
+    }
+
+    img {
+      width: 100%;
     }
   }
 
@@ -112,6 +120,14 @@
     &-c {
       h1 {
         font-size: 2rem;
+      }
+    }
+  }
+
+  #work{
+    &-a {
+      .items .item-image {
+        width: 100%;
       }
     }
   }

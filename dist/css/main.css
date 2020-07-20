@@ -435,6 +435,8 @@ img {
 @media (max-width: 1024px) {
   #header-home {
     height: 33rem; }
+    #header-home img {
+      width: 100%; }
     #header-home .header-content {
       padding-top: 5rem; } }
 
@@ -444,6 +446,8 @@ img {
     align-items: center; }
     #main-nav li {
       padding: 1rem; }
+    #main-nav img {
+      width: 100%; }
   #header-home {
     height: 10rem;
     border-bottom: 3px solid #fd5825;
@@ -483,6 +487,8 @@ img {
       padding-bottom: 0; }
   #contact-c h1 {
     font-size: 2rem; }
+  #work-a .items .item-image {
+    width: 100%; }
   #main-footer {
     height: 7rem; }
     #main-footer .footer-content {

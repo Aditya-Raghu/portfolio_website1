@@ -221,13 +221,13 @@ img {
       border-color: #fd5825; }
 
 #header-home {
-  background: url("../img/showcase2.png") no-repeat center right/cover;
+  background: url("../img/showcase2-min.png") no-repeat center right/cover;
   height: 100vh;
   color: #fff; }
   #header-home .header-content {
     color: #fff;
     text-align: center;
-    padding-top: 10%; }
+    padding-top: 15%; }
     #header-home .header-content h1 {
       font-size: 4rem;
       line-height: 1.6;
@@ -236,7 +236,7 @@ img {
       font-size: 1.5rem; }
 
 #header-inner {
-  background: url("../img/showcase2.png") no-repeat 20% 30%/cover;
+  background: url("../img/showcase2-min.png") no-repeat 20% 30%/cover;
   height: 5.5rem;
   border-bottom: 3px solid #fd5825; }
 
@@ -483,8 +483,6 @@ img {
       padding-bottom: 0; }
   #contact-c h1 {
     font-size: 2rem; }
-  #work-a .item-image {
-    width: 450px; }
   #main-footer {
     height: 7rem; }
     #main-footer .footer-content {

@@ -216,8 +216,8 @@ img {
     .about-info {
       display: grid;
       grid-template-areas:
-        "bioimage bio bio"
-        "aw1 aw2 aw3";
+        'bioimage bio bio'
+        'aw1 aw2 aw3';
       grid-gap: 1.2rem;
     }
 

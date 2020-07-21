@@ -119,7 +119,17 @@
         font-size: 2rem;
       }
     }
+    .items .item-image {
+      grid-template-columns: 450px;
+    }
+  
   }
+
+
+
+
+
+
 
   // Footer
   #main-footer {
